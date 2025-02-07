@@ -1,0 +1,135 @@
+#Contacts {
+    min-height: calc(100vh - 4rem);  /* Full height minus any margins */
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;    /* Stack child elements vertically */
+    justify-content: center;   /* Center vertically */
+    align-items: center;       /* Center horizontally */
+    text-align: center;        /* Center the text */
+    
+             /* Ensure it's the full height of the viewport */
+}
+h4{
+    text-decoration: underline;
+}
+.heading{
+    font-weight: bold;
+}
+.projectTitle{
+    font-size: 3rem;
+}
+
+.projects {
+    width: 100%;
+    padding: 2rem;  /* Ensure the project section takes full width */
+}
+.projectContainer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.project{
+    margin: 2rem;
+    border: 2px solid white;
+    background: linear-gradient(135deg, #2e3b4e, #3f4a60); /* Dark blue to dark gray gradient */
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    min-width: 450px;
+    min-height: 300px;
+
+}
+.learnings{
+    margin-bottom: 1rem;
+}
+
+.project1Description{
+    margin-bottom: 1rem;
+}
+.span1{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.contactPage{
+    width: 100%;  /* Similarly, ensure the contact section uses full width */
+}
+.project a {
+    color: #FFD700;  /* Gold color for the link */
+    text-decoration: none;  /* Remove underline */
+    font-weight: bold;  /* Make the link text bold */
+}
+
+.project a:hover {
+    color: #FF6347;  /* Tomato color for hover */
+    text-decoration: underline;  /* Underline the link on hover */
+}
+
+.contactPageTitle{
+    font-size: 3rem;
+}
+.contactDescription{
+    padding: 10rem;
+    margin-top: 1rem;
+    font-size: medium;
+    font-weight: 300;
+   
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+
+}
+.name ,.email,.msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+}
+.submitBtn{
+    background: white;
+
+    border: none;
+    padding: 0.7rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+
+}
+.link1{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    border-radius: 50%;
+    display: block;
+
+}
+
+
