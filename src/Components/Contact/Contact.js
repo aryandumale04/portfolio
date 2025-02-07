@@ -190,7 +190,7 @@ const Contact = () => {
                     <a href="https://www.facebook.com/aryan.dumale" target='_blank'><img src={facebook} alt='socials'className='link'/></a>
                     <a href="https://x.com/aryandumale05?t=nvqSgVuMBTvrzOB7KHH4Ug&s=09"><img src={twitter} alt='socials'className='link1'/></a>
                     <a href="https://www.instagram.com/aryan.dumale?igsh=YzM3MWEzMml2eHdv"><img src={instagram} alt='socials'className='link'/></a>
-                    <a href="https://www.linkedin.com/mwlite/feed/posts/aryan-d-b83409257_python-internship-todolist-activity-7279562739973259264-ksGy?utm_source=share&utm_medium=member_desktop"><img src={lnkedin} alt='socials' className='link'/></a>
+                    <a href="http://www.linkedin.com/in/aryan-d-b83409257"><img src={lnkedin} alt='socials' className='link'/></a>
                     
                 </div>
 
