@@ -2,14 +2,14 @@
     height: 5rem;
     background: rgb(30,30,30);
     width: 100vw;
-    max-width: 75rem;
+    /* max-width: 75rem; */
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    position: sticky; /* Keep the navbar sticky */
+    position: fixed; /* Keep the navbar sticky */
     top: 0;
     z-index: 3;
     

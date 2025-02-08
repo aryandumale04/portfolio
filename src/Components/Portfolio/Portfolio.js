@@ -7,6 +7,7 @@ import imgFour from '../../assets/img4.png'
 import imgFive from '../../assets/img5.png'
 import imgSix from '../../assets/img6.png'
 import imgSeven from '../../assets/img7.png'
+import { Link } from 'react-scroll'
 
 
 const Portfolio = () => {
@@ -32,7 +33,9 @@ const Portfolio = () => {
             <img src={imgSix} alt="" className="worksImg"/>
             <img src={imgSeven} alt="" className="worksImg"/>
         </div>
-        <button className='worksBtn'>See More</button>
+        <Link activeClass='active' to='Contacts' spy= {true} duration={500} smooth={true} offset={-100}>
+        
+        <button className='worksBtn'>See These in Detail Below </button></Link>
     </section>
   )
 }
