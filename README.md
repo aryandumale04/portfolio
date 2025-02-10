@@ -49,7 +49,7 @@ To run this project locally, follow these steps:
 
 Clone the repository
 
-git clone 
+git clone https://github.com/aryandumale04/portfolio.git
 
 Navigate to the project directory
 
