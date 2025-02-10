@@ -25,7 +25,7 @@ Check out my portfolio here: https://portfolio-aryan-dumales-projects.vercel.app
 
 Frontend: React, HTML, CSS, JavaScript
 
-Styling: CSS Flexbox & Grid
+Styling: CSS Flexbox 
 
 Animations: React Scroll and CSS transitions
 
@@ -37,23 +37,7 @@ Deployment: Vercel
 
 
 
-📁 Folder Structure
 
-portfolio/
-│── src/
-│   ├── Components/
-│   │   ├── Navbar/
-│   │   ├── Intro/
-│   │   ├── Skills/
-│   │   ├── Portfolio/
-│   │   ├── Contact/
-│   │   ├── Footer/
-│   ├── assets/
-│   ├── App.js
-│   ├── index.js
-│── public/
-│── package.json
-│── README.md
 
 
 
@@ -65,7 +49,7 @@ To run this project locally, follow these steps:
 
 Clone the repository
 
-git clone https://github.com/yourusername/your-portfolio.git
+git clone 
 
 Navigate to the project directory
 
@@ -74,6 +58,9 @@ cd your-portfolio
 Install dependencies
 
 npm install
+npm i react-scroll
+
+
 
 Start the development server
 
