@@ -7,6 +7,8 @@ import imgFour from '../../assets/img4.png'
 import imgFive from '../../assets/img5.png'
 import imgSix from '../../assets/img6.png'
 import imgSeven from '../../assets/img7.png'
+import imgEight from '../../assets/eight.png'
+import imgNine from '../../assets/nine.png'
 import { Link } from 'react-scroll'
 
 
@@ -32,6 +34,9 @@ const Portfolio = () => {
             <img src={imgFive} alt="" className="worksImg"/>
             <img src={imgSix} alt="" className="worksImg"/>
             <img src={imgSeven} alt="" className="worksImg"/>
+            <img src={imgEight} alt="" className="worksImg"/>
+            <img src={imgNine} alt="" className="worksImg"/>
+
         </div>
         <Link activeClass='active' to='Contacts' spy= {true} duration={500} smooth={true} offset={-100}>
         
