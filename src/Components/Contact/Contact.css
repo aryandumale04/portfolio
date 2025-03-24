@@ -131,5 +131,12 @@ h4{
     display: block;
 
 }
+.links-container {
+    display: flex;
+    gap: 400px; /* Space between links */
+}
 
+.links-container p {
+    margin: 0; /* Remove default margin */
+}
 

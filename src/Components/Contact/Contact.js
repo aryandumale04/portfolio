@@ -44,55 +44,96 @@ const Contact = () => {
             <div className='projectContainer'>
             <div className='project'>
                 <h4>
-                    Java Swing Calculator
+                    Recipe Sharing Platform 
                 </h4>
                 <span className='span1'>
-                    Java
+                    MERN
                 </span>
                 <p className='project1Description'>
-                    A GUI-based calculator built using 
-                    Java, supporting basic
-                    arithmetic operations with a 
-                    user-friendly interface. It provides real-time 
-                    calculations and an interactive design for 
-                    easy usability.
+                  Food Recipe Hub is a MERN stack-based recipe-sharing
+                   platform where users can add, view, and 
+                   explore recipes with images. It features user authentication, s
+                   ecure recipe management, and smooth navigation 
+                   using React.js and Axios. The backend, built with Node.js, 
+                   Express.js, and MongoDB Atlas, ensures efficient data handling. 
+                   The project is deployed with Vercel (frontend) and Render (backend) 
+                   for seamless performance.
 
                 </p>
                 <p className="learnings"><span className="heading">
                     Learnings: </span>
-                    This project helped me learn to 
-                    build interactive UIs with 
-                    Java Swing, using components like 
-                    JFrame and JButton. I gained experience in 
-                    handling user input with ActionListener, 
-                    implementing arithmetic operations, and 
-                    managing layout with GridLayout</p>
-                <p> To view Code :  <a href="https://github.com/aryandumale04/JavaSwingCalculator.git" target="_blank">Click Here </a></p>
+                    I gained experience in 
+                    full-stack development using the MERN stack, 
+                    integrating user authentication with JWT, 
+                    and managing a MongoDB Atlas database. Additionally, I 
+                    learned how to handle image uploads, set up environment 
+                    variables securely, and deploy applications using Vercel and Render</p>
+                <div className='links-container'>
+                <p> To view Code :  <a href="https://github.com/aryandumale04/EYGDS-P6-RecipeApp.git" target="_blank">Click Here </a></p>
+                <p> Live Demo:<a href="https://food-recipe-hub.vercel.app/" target="_blank"> Click Here</a></p>
+
+                </div>
+                
+    
             </div>
             <div className='project'>
                 <h4>
-                    Java Socket Chat Application
+                    Edusity Website
                 </h4>
                 <span className='span1'>
-                    Java
+                    HTML | Css | JavaScript | ReactJS
                 </span>
                 <p className='project1Description'>
-                     A real-time chat application built using Java 
-                    sockets, allowing users to send and receive messages
-                    over a network. It demonstrates 
-                    client-server communication 
-                    with multithreading for simultaneous conversations.
+                Edusity is a fully responsive education-based 
+                website built using React.js, CSS, and JavaScript. 
+                It is designed to offer a seamless learning experience 
+                across all devices, ensuring a modern and 
+                interactive UI/UX for users. The platform includes video content, 
+                user testimonials, and dynamic components to enhance engagement.
 
                 </p>
                 <p className="learnings"><span className="heading">
                     Learnings: </span>
-                    This project taught me how to build a
-                    real-time chat application using Java sockets, 
-                    enabling communication between the client and server. 
-                    I gained experience in multithreading, GUI design with JFrame 
-                    and JPanel, and event handling with ActionListener
-                    , while enhancing my skills in network programming and creating interactive user interfacest</p>
-                <p> To view Code :  <a href="https://github.com/aryandumale04/JAVA_SOCKET_CHAT_APPLICATION.git" target="_blank">Click Here </a></p>
+                    improved my React.js skills by building 
+                    reusable components and managing state efficiently. 
+                    Learned responsive design using CSS Flexbox & Grid and 
+                    enhanced user engagement with interactive elements. Gained experience
+                     in modern JavaScript (ES6+) and successfully deployed a R
+                     eact app on Vercel. Also, understood the 
+                     importance of performance optimization for a smooth user experience.</p>
+                <div className='links-container'>
+                <p> To view Code :  <a href="https://github.com/aryandumale04/edusityWebsite.git" target="_blank">Click Here </a></p>
+                <p> Live Demo:<a href="https://edusity-website-kappa.vercel.app/" target="_blank">Click Here</a></p>
+
+                     </div>
+                
+            </div>
+            <div className='project'>
+                <h4>
+                    Portfolio 
+                </h4>
+                <span className='span1'>
+                     HTML | CSS | JAVASCRIPT | ReactJS
+                </span>
+                <p className='project1Description'>
+                A personal portfolio website showcasing my skills, projects, and experience as a web developer. The site is built with React, HTML, CSS, and JavaScript, featuring smooth navigation, interactive UI elements, and a project showcase section. It also includes a contact form for easy communication and is deployed on Vercel for seamless updates.
+
+
+                </p>
+                <p className="learnings"><span className="heading">
+                    Learnings: </span>
+                    This project helped me refine my React development skills and improve my understanding of UI/UX design. I learned how to implement scroll-based navigation, integrate CSS Flexbox for responsive layouts, and enhance user experience with animations using React Scroll. Deploying on Vercel taught me continuous deployment techniques, making it easier to maintain and update the portfolio efficiently.
+                   
+                    
+                    
+
+                    </p>
+                <div className='links-container'>
+                <p> To view Code :  <a href="https://github.com/aryandumale04/portfolio.git" target="_blank">Click Here </a></p>
+                <p> Live Demo:<a href="https://portfolio-aryan-dumales-projects.vercel.app/" target="_blank">Click Here</a></p>
+
+                </div>
+                
             </div>
             <div className='project'>
                 <h4>
@@ -124,37 +165,7 @@ const Contact = () => {
                         </p>
                 <p> To view Code :  <a href="https://github.com/aryandumale04/NotesApp.git" target="_blank">Click Here </a></p>
             </div>
-            <div className='project'>
-                <h4>
-                    Countdown Timer  
-                </h4>
-                <span className='span1'>
-                     HTML | CSS | JAVASCRIPT
-                </span>
-                <p className='project1Description'>
-                The Countdown Timer project displays a countdown to a 
-                specific date and time, showing remaining days, 
-                hours, minutes, and seconds. It also features a
-                 progress bar that visually tracks the time
-                  elapsed. Once the countdown ends, 
-                  it shows "EXPIRED" and fills the progress ba
-
-
-                </p>
-                <p className="learnings"><span className="heading">
-                    Learnings: </span>
-                    I learned how to use setInterval to update
-                     elements every second, work with date manipulation 
-                     in JavaScript, and create dynamic progress 
-                     bars based on elapsed time. This project enhanced my 
-                     skills in combining JavaScript 
-                     with HTML and CSS for interactive feature
-                    
-                    
-
-                    </p>
-                <p> To view Code :  <a href="https://github.com/aryandumale04/Countdown-Timer.git" target="_blank">Click Here </a></p>
-            </div>
+            
             </div>
 
 
