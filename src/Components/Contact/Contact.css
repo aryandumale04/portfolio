@@ -131,5 +131,28 @@ h4{
     display: block;
 
 }
+.links{
+    display: flex; 
+    gap: 22rem
+}
 
 
+.project {
+    margin: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05); /* Subtle glass-like dark */
+    backdrop-filter: blur(6px); /* Adds glassmorphism blur */
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    min-width: 450px;
+    min-height: 300px;
+    border-radius: 1rem; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05); /* Soft shadow */
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth hover effect */
+}
+.project:hover {
+    transform: scale(1.03); /* Slight zoom effect */
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.15); /* More prominent shadow */
+    background: rgba(255, 255, 255, 0.08); /* Slightly brighter glass effect */
+}

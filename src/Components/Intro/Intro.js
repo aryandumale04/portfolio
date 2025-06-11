@@ -15,7 +15,7 @@ const Intro = () => {
                 <p className='intropara'> I am a enthusiastic web developer with experience 
                     in creating<br/> visually appealing and user friendly websites.
                 </p>
-                <Link activeClass='active' to='contact' spy= {true} duration={500} smooth={true} offset={-100}>
+                <Link activeClass='active' to='contact' spy= {true} duration={500} smooth={true} offset={-10}>
                 <button className="btn">
                 <img src={btnimg} alt="Hire me" className='btnimg'/> Hire me </button></Link>
     

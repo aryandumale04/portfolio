@@ -43,117 +43,101 @@ const Contact = () => {
             </p>
             <div className='projectContainer'>
             <div className='project'>
+               
                 <h4>
-                    Java Swing Calculator
+                    Food Recipe Hub
                 </h4>
                 <span className='span1'>
-                    Java
+                    Tech STack : MERN
                 </span>
                 <p className='project1Description'>
-                    A GUI-based calculator built using 
-                    Java, supporting basic
-                    arithmetic operations with a 
-                    user-friendly interface. It provides real-time 
-                    calculations and an interactive design for 
-                    easy usability.
+                  <span className='heading'>Description : </span>   A full-stack web application where users can share, view, and manage food recipes with image uploads and dynamic search features.
 
                 </p>
                 <p className="learnings"><span className="heading">
-                    Learnings: </span>
-                    This project helped me learn to 
-                    build interactive UIs with 
-                    Java Swing, using components like 
-                    JFrame and JButton. I gained experience in 
-                    handling user input with ActionListener, 
-                    implementing arithmetic operations, and 
-                    managing layout with GridLayout</p>
-                <p> To view Code :  <a href="https://github.com/aryandumale04/JavaSwingCalculator.git" target="_blank">Click Here </a></p>
+                    Learnings : </span>
+                    This project enhanced my skills in REST API design, user authentication, and image handling with Cloudinary. It also gave me practical experience in deploying MERN stack applications using Render (for backend).
+
+</p>
+                <div className='links'>
+                    <p> To view Code :  <a href="https://github.com/aryandumale04/EYGDS-P6-RecipeApp.git" target="_blank">Click Here </a></p>
+                    <p>  For Live  Demo : <a href = " https://food-recipe-hub.vercel.app/" target='_blank'>Click Here</a></p>
+
+                </div>
             </div>
             <div className='project'>
+                <img></img>
                 <h4>
-                    Java Socket Chat Application
+                    Portfolio Website
                 </h4>
                 <span className='span1'>
-                    Java
+                    Technology Used: HTML, CSS, JavaScript, React
                 </span>
                 <p className='project1Description'>
-                     A real-time chat application built using Java 
-                    sockets, allowing users to send and receive messages
-                    over a network. It demonstrates 
-                    client-server communication 
-                    with multithreading for simultaneous conversations.
+                   A personal portfolio website showcasing my skills, projects, and resume, built with a responsive design and smooth user interface.
 
                 </p>
                 <p className="learnings"><span className="heading">
                     Learnings: </span>
-                    This project taught me how to build a
-                    real-time chat application using Java sockets, 
-                    enabling communication between the client and server. 
-                    I gained experience in multithreading, GUI design with JFrame 
-                    and JPanel, and event handling with ActionListener
-                    , while enhancing my skills in network programming and creating interactive user interfacest</p>
-                <p> To view Code :  <a href="https://github.com/aryandumale04/JAVA_SOCKET_CHAT_APPLICATION.git" target="_blank">Click Here </a></p>
+                   Through this project, I gained experience in frontend design principles, responsive layout building, and component-based architecture using React. It also helped me understand version control and hosting with GitHub Pages</p>
+                <div className='links'>
+                    <p> To view Code :  <a href="https://github.com/aryandumale04/portfolio.git" target="_blank">Click Here </a></p>
+                    <p>  For Live  Demo : <a href = " https://portfolio-aryan-dumales-projects.vercel.app/" target='_blank'>Click Here</a></p>
+
+                </div>
             </div>
             <div className='project'>
+                <img></img>
                 <h4>
-                    Notes WebApp
+                     Educative Website
                 </h4>
                 <span className='span1'>
-                    HTML | CSS | JAVASCRIPT
+                   Technology Used: HTML, CSS, JavaScript, ReactJs
                 </span>
                 <p className='project1Description'>
 
-                    The Notes App allows users to add,
-                     view, and delete notes with titles 
-                     and descriptions. By clicking the "Add Note" 
-                     button, users can enter a title and description 
-                     in a form, which is then displayed in a list. 
-                     Each note can be deleted by 
-                     clicking a "Delete" button associated with it
+                   An informative educational website offering interactive tutorials and topic-wise resources in a clean and user-friendly interface.
                 </p>
                 <p className="learnings"><span className="heading">
                     Learnings: </span>
-                    In this project, I learned how to manipulate
-                     the DOM using JavaScript to create interactive 
-                     features such as adding and removing notes dynamically. 
-                     It helped me understand event handling, 
-                     modifying HTML elements, and managing user 
-                     inputs efficiently. Additionally, I worked with form 
-                     elements, event listeners, and DOM traversal 
-                     to achieve a seamless user experience
+                    This project taught me to organize educational content efficiently using basic frontend technologies. I practiced building structured layouts and improved my grasp on DOM manipulation and user-centric design.
+
+
                         </p>
-                <p> To view Code :  <a href="https://github.com/aryandumale04/NotesApp.git" target="_blank">Click Here </a></p>
+                <div className='links'>
+                    <p> To view Code :  <a href="https://github.com/aryandumale04/edusityWebsite.git" target="_blank">Click Here </a></p>
+                    <p>  For Live  Demo : <a href = " https://edusity-website-kappa.vercel.app/" target='_blank'>Click Here</a></p>
+
+                </div>
+                
             </div>
             <div className='project'>
+                <img></img>
                 <h4>
-                    Countdown Timer  
+                    Task Creator App
                 </h4>
                 <span className='span1'>
-                     HTML | CSS | JAVASCRIPT
+                    Technology Used: Node.js, Express.js, EJS
                 </span>
                 <p className='project1Description'>
-                The Countdown Timer project displays a countdown to a 
-                specific date and time, showing remaining days, 
-                hours, minutes, and seconds. It also features a
-                 progress bar that visually tracks the time
-                  elapsed. Once the countdown ends, 
-                  it shows "EXPIRED" and fills the progress ba
+                A web application that lets users create, view, and delete daily tasks using a dynamic and clean server-side rendered interface.
 
 
                 </p>
                 <p className="learnings"><span className="heading">
                     Learnings: </span>
-                    I learned how to use setInterval to update
-                     elements every second, work with date manipulation 
-                     in JavaScript, and create dynamic progress 
-                     bars based on elapsed time. This project enhanced my 
-                     skills in combining JavaScript 
-                     with HTML and CSS for interactive feature
+                    This project helped me understand server-side rendering with EJS templates and routing in Express.js. I also learned how to manage form data, work with dynamic content, and structure a Node.js app effectively.
+
+
                     
                     
 
                     </p>
-                <p> To view Code :  <a href="https://github.com/aryandumale04/Countdown-Timer.git" target="_blank">Click Here </a></p>
+                <div className='links'>
+                    <p> To view Code :  <a href="https://github.com/aryandumale04/TaskManger.git" target="_blank">Click Here </a></p>
+                    <p>  For Live  Demo : <a href = "https://tasksmanger.onrender.com/" target='_blank'>Click Here</a></p>
+
+                </div>
             </div>
             </div>
 
@@ -188,9 +172,9 @@ const Contact = () => {
                 </button>
                 <div className='links'>
                     <a href="https://www.facebook.com/aryan.dumale" target='_blank'><img src={facebook} alt='socials'className='link'/></a>
-                    <a href="https://x.com/aryandumale05?t=nvqSgVuMBTvrzOB7KHH4Ug&s=09"><img src={twitter} alt='socials'className='link1'/></a>
-                    <a href="https://www.instagram.com/aryan.dumale?igsh=YzM3MWEzMml2eHdv"><img src={instagram} alt='socials'className='link'/></a>
-                    <a href="http://www.linkedin.com/in/aryan-d-b83409257"><img src={lnkedin} alt='socials' className='link'/></a>
+                    <a href="https://x.com/aryandumale05?t=nvqSgVuMBTvrzOB7KHH4Ug&s=09" target='_blank'><img src={twitter} alt='socials'className='link1'/></a>
+                    <a href="https://www.instagram.com/aryan.dumale?igsh=YzM3MWEzMml2eHdv" target='_blank'><img src={instagram} alt='socials'className='link'/></a>
+                    <a href="http://www.linkedin.com/in/aryan-d-b83409257" target='_blank'><img src={lnkedin} alt='socials' className='link'/></a>
                     
                 </div>
 

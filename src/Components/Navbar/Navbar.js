@@ -28,8 +28,9 @@ const Navbar = () => {
         <img src={menu} alt="menu" className="burgerMenu" onClick={() => setshowMenu(!showMenu)} />
         
         <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
-          <Link activeClass='active' to='Intro' spy={true} duration={500} smooth={true} offset={-90} className="Menuitem" onClick={() => setshowMenu(false)}>Home</Link>
-          <Link activeClass='active' to='Skills' spy={true} duration={500} smooth={true} offset={-120} className="Menuitem" onClick={() => setshowMenu(false)}>About</Link>
+          
+          <Link activeClass='active' to='Intro' spy={true} duration={500} smooth={true} offset={-200} className="Menuitem" onClick={() => setshowMenu(false)}>Home</Link>
+          <Link activeClass='active' to='Skills' spy={true} duration={500} smooth={true} offset={-250} className="Menuitem" onClick={() => setshowMenu(false)}>About</Link>
           <Link activeClass='active' to='Portfolio' spy={true} duration={500} smooth={true} offset={-150} className="Menuitem" onClick={() => setshowMenu(false)}>Portfolio</Link>
           <Link activeClass='active' to='Contacts' spy={true} duration={500} smooth={true} offset={-150} className="Menuitem" onClick={() => setshowMenu(false)}>Projects</Link>
           <Link activeClass='active' to='contact' spy={true} duration={500} smooth={true} offset={-50} className="Menuitem" onClick={() => setshowMenu(false)}>Contact</Link>

@@ -29,9 +29,16 @@
     justify-content: center;
     width: 100vw;
     max-width:65rem;
-
-
+     transition: transform 0.3s ease, background 0.3s ease; 
 }
+
+.worksImg:hover {
+    transform: scale(1.03); /* Slight zoom effect */
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.15); /* More prominent shadow */
+    background: rgba(255, 255, 255, 0.08); /* Slightly brighter glass effect */
+}
+
+
 .worksImg{
     object-fit: cover;
     height: 20rem;
