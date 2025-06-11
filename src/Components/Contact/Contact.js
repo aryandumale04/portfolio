@@ -170,7 +170,7 @@ const Contact = () => {
                 >
                     Submit
                 </button>
-                <div className='links'>
+                <div className='linkIcon'>
                     <a href="https://www.facebook.com/aryan.dumale" target='_blank'><img src={facebook} alt='socials'className='link'/></a>
                     <a href="https://x.com/aryandumale05?t=nvqSgVuMBTvrzOB7KHH4Ug&s=09" target='_blank'><img src={twitter} alt='socials'className='link1'/></a>
                     <a href="https://www.instagram.com/aryan.dumale?igsh=YzM3MWEzMml2eHdv" target='_blank'><img src={instagram} alt='socials'className='link'/></a>
